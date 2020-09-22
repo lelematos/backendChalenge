@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/cli": "^2.7.1",
     "@types/mongoose": "^5.7.36",
     "apollo-datasource-rest": "^0.9.3",
     "apollo-server": "^2.17.0",
