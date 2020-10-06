@@ -3,6 +3,10 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
+/**
+ * pelo que vi você não chegou a utilizar esse arquivo
+ */
+
 // conectando
 const url = `mongodb+srv://${process.env.MONGO_USERNAME}:${process.env.MONGO_PASSWORD}@backendchalenge.byts9.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`
 mongoose.connect(url, { useNewUrlParser: true }, () => console.log('connected to db'))
