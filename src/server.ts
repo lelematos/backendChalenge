@@ -5,7 +5,7 @@ import resolvers from './server/resolvers'
 
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
-
+// legal você ter utilizado o .env, facilita bastante :)
 dotenv.config()
 
 // conectando
